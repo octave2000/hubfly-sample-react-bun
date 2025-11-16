@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "HOST=0.0.0.0 PORT=3000 bun --hot src/index.tsx",
-    "start": "NODE_ENV=production bun src/index.tsx",
+    "start": "NODE_ENV=production HOST=0.0.0.0 PORT=3000 bun src/index.tsx",
     "build": "bun run build.ts"
   },
   "dependencies": {
